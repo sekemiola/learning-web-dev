@@ -1,6 +1,43 @@
-#kemi{
+#kemi {
 	display: flex;
 	flex-direction: row;
 	background-color:#2F343F
 	
 }
+.input-div {
+	width: 400px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.input-div label {
+	display: block;
+}
+
+.input-div input {
+	padding: 5px 10px;
+	margin: 10px 0 5px;
+}
+
+/*.input-div2 {
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.input-div2 input {
+	padding: 5px 10px;
+	margin: 10px 0 5px;
+}
+.input-div3 {
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.input-div3 input {
+	padding: 5px 10px;
+	margin: 10px 0 5px;
+}
+*/
