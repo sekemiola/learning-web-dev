@@ -18,6 +18,8 @@
 .input-div input {
 	padding: 5px 10px;
 	margin: 10px 0 5px;
+	border: 2px bold black;
+	border-radius: 6px
 }
 
 /*.input-div2 {
@@ -41,3 +43,7 @@
 	margin: 10px 0 5px;
 }
 */
+/*.button {
+	border: 2px solid black;
+	border-radius: 30px;
+}*/
