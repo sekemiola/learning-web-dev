@@ -47,3 +47,31 @@
 	border: 2px solid black;
 	border-radius: 30px;
 }*/
+body{
+	margin: 20px;
+}
+.image{
+	width: 150px;
+	height: 150px
+}
+.card{
+	border: 2px dotted blue;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+	
+		
+
+}
+.border{
+	border: 1px solid blue;
+	width: 400p
+	margin-right:200px;
+	text-align: center;
+	
+}
