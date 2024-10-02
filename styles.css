@@ -49,18 +49,22 @@
 }*/
 
 .image{
-	width: 250px;
-	height: 200px
+	width: 150px;
+	height: 150px;
+	border-radius: 5px
 }
 .card{
-	border: 2px solid blue;
+	border: 2px solid black;
 	padding: 20px;
 	display: flex;
 	justify-content: center;
 	width: 400px;
-	border-bottom: 2px solid blue;
+	border-bottom: 2px solid black;
 	font-family: verdana, geneva,tahoma, sans-serif;
-	margin: 0 auto;
+	margin: 20px auto;
+	background-color: grey;
+
+	
 
 	
 		
@@ -70,8 +74,12 @@
 	width: 400px
 	margin:200px;
 	text-align: center;
-	padding-left: 30px
 	width: fit-content;
+	border:2px solid black;
+	border-radius: 5px;
+	margin-left: 20px;
+	background: orange;
+
 
 
 	
