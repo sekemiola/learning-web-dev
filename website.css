@@ -2,6 +2,8 @@ body{
 
 	font-family: malegroth.zip;
 	margin: 0px;
+	text-align: center;
+	color: #CD7F32
 
 }
 
@@ -10,6 +12,7 @@ body{
 .main-body{ 
 	text-align: center;
 	color: #FFA07A;
+	background: linear-gradient(white #CD7F32);
 
 }
 	
@@ -28,7 +31,7 @@ body{
 	margin-left: 250px;
 	padding-bottom: 90px;
 	color: #FFA07A;
-	padding-left: 550px;
+	padding-left: 250px;
 
 }
 #eats{
@@ -87,11 +90,7 @@ body{
 	flex-direction: row;
 	justify-content: space-between;
 	padding-top: 40px;
-
-.p{
-	display: flex;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
-	justify-content: center;
- }
- 
+	margin-bottom: 0px auto;
+}
