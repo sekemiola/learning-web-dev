@@ -120,7 +120,7 @@ body {
 .imgs{
 	display: flex;
 	flex-direction: row;
-	}
+	}  
 .link{
 	padding-right: 100%;
 	font-size: 30px;
