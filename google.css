@@ -1,0 +1,81 @@
+.hd{
+	display: flex;
+	flex-direction: row;
+	padding-left: 200px;
+	color: white;
+	background-color: black;
+	justify-content: space-around;
+}
+#sb{
+	background-color: #daef68;
+	color: #000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+
+}
+#gc:hover{
+	color: red;
+
+}
+#SE{
+	border: 1px solid white;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+	
+#go{
+	color: white;
+	width: 150px;
+	border: 1px solid white;
+	padding: 10px 30px;
+}
+#EG{
+	color: white;
+	font-size: 25px;
+} 
+#EG:hover {
+	color: grey;
+}
+#go:hover {
+	background-color: white;
+	color: #000;
+}
+.photo{
+	background: linear-gradient(45deg,
+                    rgba(2, 2, 2, 0.75),
+                    rgba(245, 255, 255, 0.75)),
+                      url(Experiments_Hero.jpg);
+	/*background: linear gradie*/
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	width: 1300px;
+	height: 600px;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	padding: 20% 0 0 50px;
+	line-height: 0px;
+	color: white;
+}
+.tf{
+	font-size: 40px;
+}
+#vc{
+	border: 1px solid white;
+	padding: 30px 30px;
+	width: 150px; 
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#vc:hover{
+	background-color: blue;
+}
