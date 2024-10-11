@@ -5,6 +5,8 @@
 	color: white;
 	background-color: black;
 	justify-content: space-around;
+	margin left: 0;
+	margin-right: 0;
 }
 #sb{
 	background-color: #daef68;
@@ -12,6 +14,8 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
+	margin-right: 0;
+	margin-left: 0;
 
 }
 #gc:hover{
@@ -78,4 +82,29 @@
 
 #vc:hover{
 	background-color: blue;
+}
+.paragragh{
+	display: flex;
+	font-size: 15px;
+	font-family: courier;
+	margin: 0 auto;
+	padding-left: 220px;
+	padding-right: 250px;
+	padding-top: 40px;
+	font-size: 20px;
+	line-height: -15px;
+}
+hr{
+	margin-left: 220px;
+	margin-right: 250px;
+	margin-top: 50px;
+}
+.fca{
+	display: flex;
+	flex-direction: row;
+	padding-left: 220px;
+	padding-right: 250px;
+	font-size: 20px;
+	font-family: courier;
+	justify-content: space-between;
 }
