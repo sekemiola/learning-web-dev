@@ -19,7 +19,7 @@
 
 }
 #gc:hover{
-	color: red;
+	color: blu   e;
 
 }
 #SE{
@@ -62,7 +62,7 @@
 }
 
 .text{
-	display: flex;
+	display: flex; 
 	flex-direction: column;
 	padding: 20% 0 0 50px;
 	line-height: 0px;
@@ -97,7 +97,7 @@
 hr{
 	margin-left: 220px;
 	margin-right: 250px;
-	margin-top: 50px;
+	margin-top: 0px;
 }
 .fca{
 	display: flex;
@@ -107,4 +107,56 @@ hr{
 	font-size: 20px;
 	font-family: courier;
 	justify-content: space-between;
+	margin-top: -27px;
+	font-size: 25px;
 }
+#vac:hover{
+	color: blue;
+}
+.xr{
+	display: flex;
+	flex-direction: row;
+}
+.esc{
+
+	display: flex;
+	flex-direction: row;
+	font-size: 40px;
+	color: white;
+	
+	
+
+}
+#web{
+	background-image: url(xr.jpg);
+	width: 350px;
+	height: 350px;
+
+
+}
+#ai{
+	background-image: url(AI.jpg);
+	width: 350px;
+	height: 350px;
+}
+#ace{
+	background-image: url(arts&culture.jpg);
+	width: 350px;
+	height: 350px;
+}
+#efl{
+	background-image: url(EFL.jpg);
+	width: 350px;
+	height: 350px;
+}
+#swo{
+		background-image: url(sto.jpg);
+	width: 350px;
+	height: 350px;
+}
+#ce{
+		background-image: url(chromeexperiment.jpg);
+	width: 350px;
+	height: 350px;
+}
+
