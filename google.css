@@ -116,11 +116,12 @@ hr{
 .xr{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	text-align: center;
+	justify-content: space-around;
+	padding-left: 200px;
+	padding-right: 200px;
 	margin-right: auto;
 	margin-left: auto;
-	color: red;
+	color: white;
 	line-height: 340px;
 	font-size: 30px;
 
@@ -131,9 +132,10 @@ hr{
 	flex-direction: row;
 	font-size: 40px;
 	color: white;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-around;
 	line-height: 340px;
+	padding-left: 200px;
+	padding-right: 200px;
 
 
 	 
@@ -142,9 +144,10 @@ hr{
 }
 #web{
 
+	filter: brightness(40%);
 	background-image: url(xr.jpg);
-	width: 350px;
-	height:350px;
+	width: 400px;
+	height:400px;
 	/*justify-content: center;
 	align-items: center;*/
 	
@@ -152,28 +155,37 @@ hr{
 
 }
 #ai{
+	filter: brightness(40%);
 	background-image: url(AI.jpg);
-	width: 350px;
-	height: 350px;
+	width: 400px;
+	height: 400px;
 
 }
 #ace{
+	filter: brightness(40%);
 	background-image: url(arts&culture.jpg);
-	width: 350px;
-	height: 350px;
+	width: 400px;
+	height: 400px;
 }
 #efl{
+	filter: brightness(40%);
 	background-image: url(EFL.jpg);
-	width: 350px;
-	height: 350px;
+	width: 400px;
+	height: 400px;
 }
 #swo{
-		background-image: url(sto.jpg);
-	width: 350px;
-	height: 350px;
+	filter: brightness(40%);
+	background-image: url(sto.jpg);
+	width: 400px;
+	height: 400px;
 }
 #ce{
-		background-image: url(chromeexperiment.jpg);
-	width: 350px;
-	height: 350px;
+	filter: brightness(40%);
+	background-image: url(chromeexperiment.jpg);
+	width: 400px;
+	height: 400px;
+}
+#web:hover{
+	content: "fdsddfk";
+
 }
