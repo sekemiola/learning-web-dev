@@ -58,7 +58,7 @@
                     rgba(245, 255, 255, 0.75)),
                       url(Experiments_Hero.jpg);
 	/*background: linear gradie*/
-	background-size: cover;
+	background-size: 100% 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
@@ -162,7 +162,7 @@ hr{
                     rgba(-1, -1, -1, 0.75),
                     rgba(-1, -1, -1, 0.75)), 
 					url(xr.jpg);
-	background-size: contain;
+	background-size: 100% 100%;
 	width: 400px;
 	height:400px;
 	justify-content: center;
@@ -177,7 +177,8 @@ hr{
                     rgba(-1, -1, -1, 0.75),
                     rgba(-1, -1, -1, 0.75)),  
 					url(AI.jpg);
-	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	width: 400px;
 	height: 400px; 
 	
@@ -189,7 +190,7 @@ hr{
                     rgba(-1, -1, -1, 0.75),
                     rgba(-1, -1, -1, 0.75)), 
 					url(arts&culture.jpg);
-	background-size: contain;				
+	background-size: 100% 100%;				
 	width: 400px;
 	height: 400px;
 }
@@ -199,7 +200,7 @@ hr{
                     rgba(-1, -1, -1, 0.75),
                     rgba(-1, -1, -1, 0.75)), 
 					url(EFL.jpg);
-	background-size: contain;
+	background-size:100% 100%;
 	width: 400px;
 	height: 400px;
 }
@@ -209,7 +210,7 @@ hr{
                     rgba(-1, -1, -1, 0.75),
                     rgba(-1, -1, -1, 0.75)), 
 					url(sto.jpg);
-	background-size: contain;
+	background-size: 100% 100%;
 	width: 400px;
 	height: 400px;
 }
@@ -219,7 +220,7 @@ hr{
                     rgba(-1, -1, -1, 0.75),
                     rgba(-1, -1, -1, 0.75)),  
 					url(chromeexperiment.jpg);
-	background-size: contain;
+	background-size: 100% 100%;
 	width: 400px;
 	height: 400px;
 }
@@ -263,3 +264,4 @@ hr{
 
 
 	
+silent noise in my mind
