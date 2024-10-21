@@ -1,4 +1,6 @@
-
+.body{
+	margin: 0 200px;
+}
 .hd{
 	display: flex;
 	flex-direction: row;
@@ -19,8 +21,11 @@
 	margin-left: 0;
 
 }
+#gc{
+	color: black;
+}
 #gc:hover{
-	color: blu   e;
+	color: blue;
 
 }
 #SE{
@@ -99,22 +104,22 @@
 	font-size: 15px;
 	font-family: courier;
 	margin: 0 auto;
-	padding-left: 220px;
-	padding-right: 250px;
+	/*padding-left: 220px;*/
+	/*padding-right: 250px;*/
 	padding-top: 40px;
 	font-size: 20px;
 	line-height: -15px;
 }
 hr{
-	margin-left: 220px;
-	margin-right: 250px;
+	/*margin-left: 220px;*/
+	/*margin-right: 250px;*/
 	margin-top: 0px;
 }
 .fca{
 	display: flex;
 	flex-direction: row;
-	padding-left: 220px;
-	padding-right: 250px;
+	/*padding-left: 220px;*/
+	/*padding-right: 250px;*/
 	font-size: 20px;
 	font-family: courier;
 	justify-content: space-between;
@@ -132,8 +137,8 @@ hr{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding-left: 200px;
-	padding-right: 200px;
+	/*padding-left: 200px;*/
+	/*padding-right: 200px;*/
 	margin-right: auto;
 	margin-left: auto;
 	color: white;
@@ -147,8 +152,8 @@ hr{
 	font-size: 40px;
 	color: white;
 	justify-content: space-around;
-	padding-left: 200px;
-	padding-right: 200px;
+	/*padding-left: 200px;*/
+	/*padding-right: 200px;*/
 	margin-top: 20px;
  }
 #web{
@@ -226,8 +231,8 @@ hr{
 	justify-content: center;
 	align-items: center;
 	padding-top: 25%;
-	padding-left: 50px;
-	padding-right: 50px;
+	/*padding-left: 50px;*/
+	/*padding-right: 50px;*/
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -240,7 +245,7 @@ hr{
 	width: 45%;
 }
 #vi{
-	padding-right: 500px;
+	/*padding-right: 500px;*/
 	color: black;
 }
 .pow{
@@ -253,11 +258,11 @@ hr{
 	display: flex;
 	flex-direction: row;
 	margin-top: 30px;
-	padding-left: 200px;
+	/*padding-left: 200px;*/
 	height: 200px;
 }
 #water,#play,#icons,#what,#touch,.mtchw{
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 }
 .pics{
 	border: 1px solid grey;
@@ -267,30 +272,22 @@ hr{
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	float: right;
+	/*float: right;*/
 	border: 2px solid white;
-	background-color: rgb(230, 230, 230);
-	width: 500px;
-	margin-right: 250px;
-	margin-left: 30px;
-	padding-right: 90px;
-	padding-left: -300px;
+	background-color: rgb(235, 235, 235);
+	align-items:  start;
+	/*width: 500px;*/
+	/*margin-right: 250px;*/
+	/*margin-left: 30px;*/
+	/*padding-right: 90px;*/
+	/*padding-left: -300px;*/
 
 }
 #smtn{
 	display: flex;
 	flex-direction: row;
-	margin-left: 
-	padding-right: 30px;
-	justify-content:  center;
-	margin-left: auto;
-	margin-right: auto;
-}
-.tarot{
-	padding-top: 20px;
-	padding-right: 50px;
-	margin-right: 200px;
 }
 #hmm{
-	padding-right: 150px;
+	/*margin-left: -160px;*/
+	/*padding-right: 200px;*/
 }
