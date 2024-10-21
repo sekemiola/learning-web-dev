@@ -1,5 +1,9 @@
 .body{
-	margin: 0 200px;
+	margin: 0 220px;
+}
+#hp{
+	margin-right: 0px;
+	margin-left: 0px;
 }
 .hd{
 	display: flex;
@@ -59,17 +63,18 @@
 	color: #000;
 }
 .photo{
-	background: linear-gradient(45deg,
-                    rgba(2, 2, 2, 0.75),
-                    rgba(245, 255, 255, 0.75)),
+	background: linear-gradient(25deg,
+                    rgba(0, 0, 0, 0.8) 10%,
+                    rgba(255, 255, 255, 0) 80% ),
                       url(Experiments_Hero.jpg);
 	/*background: linear gradie*/
 	background-size: 100% 100%;
+	/*border: 1px solid grey;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
 	width: 1300px;
-	height: 600px;
+	height: 700px;
 }
 
 .text{
@@ -123,6 +128,7 @@ hr{
 	font-size: 20px;
 	font-family: courier;
 	justify-content: space-between;
+
 	margin-top: -27px;
 	font-size: 25px;
 }
@@ -136,8 +142,8 @@ hr{
 .xr{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	/*padding-left: 200px;*/
+	justify-content: space-between;
+	/*padding-left: 200px;
 	/*padding-right: 200px;*/
 	margin-right: auto;
 	margin-left: auto;
@@ -151,10 +157,10 @@ hr{
 	flex-direction: row;
 	font-size: 40px;
 	color: white;
-	justify-content: space-around;
+	justify-content: space-between;
 	/*padding-left: 200px;*/
 	/*padding-right: 200px;*/
-	margin-top: 20px;
+	margin-top: 35px;
  }
 #web{
 
@@ -164,8 +170,8 @@ hr{
                     rgba(-1, -1, -1, 0.75)), 
 					url(xr.jpg);
 	background-size: 100% 100%;
-	width: 400px;
-	height:400px;
+	width: 420px;
+	height:420px;
 	justify-content: center;
 	align-items: center;
 	
@@ -180,8 +186,8 @@ hr{
 					url(AI.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	width: 400px;
-	height: 400px; 
+	width: 420px;
+	height: 420px; 
 	
 
 }
@@ -192,8 +198,8 @@ hr{
                     rgba(-1, -1, -1, 0.75)), 
 					url(arts&culture.jpg);
 	background-size: 100% 100%;				
-	width: 400px;
-	height: 400px;
+	width: 420px;
+	height: 420px;
 }
 #efl{
 	background-image:
@@ -202,8 +208,8 @@ hr{
                     rgba(-1, -1, -1, 0.75)), 
 					url(EFL.jpg);
 	background-size:100% 100%;
-	width: 400px;
-	height: 400px;
+	width: 420px;
+	height: 420px;
 }
 #swo{
 	background-image: 
@@ -212,8 +218,8 @@ hr{
                     rgba(-1, -1, -1, 0.75)), 
 					url(sto.jpg);
 	background-size: 100% 100%;
-	width: 400px;
-	height: 400px;
+	width: 420px;
+	height: 420px;
 }
 #ce{
 	background-image:
@@ -222,8 +228,8 @@ hr{
                     rgba(-1, -1, -1, 0.75)),  
 					url(chromeexperiment.jpg);
 	background-size: 100% 100%;
-	width: 400px;
-	height: 400px;
+	width: 420px;
+	height: 420px;
 }
 .xrr{
 	display: flex;
@@ -242,7 +248,7 @@ hr{
 }
 #hr2{
 	margin-top: 70px;
-	width: 45%;
+	/*width: 45%;*/
 }
 #vi{
 	/*padding-right: 500px;*/
