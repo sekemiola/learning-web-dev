@@ -21,11 +21,22 @@
 #sb{
 	background-color: #daef68;
 	color: #000;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 	text-align: center;
 	margin-right: 0;
 	margin-left: 0;
+	/*font-size: 12px;*/
+	height: 30px;
+}
+#kai{
+	padding-bottom: 40px;
+	margin-top: 0;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+	font-family: "Source Code", "monaco", "PT Mono", "courier", monospace;
+	letter-spacing: 1px;
 }
 #gc{
 	color: black;
@@ -74,9 +85,10 @@
 	/*border: 1px solid grey;*/
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
+	margin-top: 190px;
 	width: 1300px;
 	height: 700px;
+	/*padding-top: 40px;*/
 }
 
 .text{
@@ -125,6 +137,7 @@ hr{
 .fca{
 	display: flex;
 	flex-direction: row;
+	/*justify-content: space-between;*/
 	/*padding-left: 220px;*/
 	/*padding-right: 250px;*/
 	font-size: 20px;
@@ -136,6 +149,7 @@ hr{
 }
 #vac{
 	color: black;
+	padding-left: 250px;
 }
 #vac:hover{
 	color: blue;
@@ -306,7 +320,7 @@ hr{
 	/*margin-left: 30px;*/
 	/*padding-right: 90px;*/
 	/*padding-left: -300px;*/
-
+	/*padding-left: -40px;*/
 }
 #WH{
 	font-size: 15px;
@@ -330,6 +344,9 @@ hr{
 	margin-top: 15px;
 	margin-left: 19px;
 }
+#fb:hover{
+	background-color: grey;
+}
 .nawa{
 	display: flex;
 	flex-direction: row;
@@ -352,4 +369,7 @@ hr{
 	color: rgb( 215 215 215);
 	text-decoration: none;
 
+}
+#pri:hover{
+	color: blue;
 }
