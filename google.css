@@ -1,9 +1,12 @@
-.pbody{
+.body{
 	margin: 0 220px;
 }
 #hp{
 	margin-right: 0px;
 	margin-left: 0px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 .hd{
 	display: flex;
@@ -23,7 +26,7 @@
 	text-align: center;
 	margin-right: 0;
 	margin-left: 0;
-o}
+}
 #gc{
 	color: black;
 }
@@ -126,7 +129,7 @@ hr{
 	/*padding-right: 250px;*/
 	font-size: 20px;
 	font-family: courier;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
 
 	margin-top: -27px;
 	font-size: 25px;
@@ -247,11 +250,14 @@ hr{
 }
 #hr2{
 	margin-top: 70px;
-	/*width: 45%;*/
+	width: 50%;
+	margin-left: 0px;
+
 }
 #vi{
 	/*padding-right: 500px;*/
 	color: black;
+	padding-left: 300px;
 }
 .pow{
 	display: flex;
@@ -265,13 +271,24 @@ hr{
 	margin-top: 30px;
 	/*padding-left: 200px;*/
 	height: 200px;
+	justify-content: space-between;
 }
 #water,#play,#icons,#what,#touch,.mtchw{
 	/*padding-left: 20px;*/
+	width: 300px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+.mtchw{
+	width: 200px;
 }
 .pics{
 	border: 1px solid grey;
-	width: 350px;
+	width: 300px;
+}
+.picz{
+	width: 200px;
+	height: 200px;
 }
 .col2{
 	display: flex;
@@ -280,17 +297,26 @@ hr{
 	/*float: right;*/
 	border: 2px solid white;
 	background-color: rgb(235, 235, 235);
-	align-items:  start;
+	/*align-items:  start;*/
+	width: 400px;
+	padding: 30px;
+	margin-top: -100px
 	/*width: 500px;*/
-	/*margin-right: 250px;*/
+	/*margin0-right: 250px;*/
 	/*margin-left: 30px;*/
 	/*padding-right: 90px;*/
 	/*padding-left: -300px;*/
 
 }
+#WH{
+	font-size: 15px;
+
+}
 #smtn{
 	display: flex;
 	flex-direction: row;
+	padding: 20px;
+	justify-content: space-between;
 }
 #hmm{
 	/*margin-left: -160px;*/
@@ -301,7 +327,7 @@ hr{
 	height: 40px;
 	background-color: white;
 	border-radius: 50%;
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-left: 19px;
 }
 .nawa{
@@ -311,7 +337,7 @@ hr{
 	background-color: rgb(0, 0, 0 );
 	/*padding-top: 40px;*/
 	padding: 20px 260px;
-	margin-top: 40px;
+	margin-top: 100px;
 	color: rgb( 215 215 215);
 	padding-right: 150px;
 }
@@ -320,5 +346,10 @@ hr{
 	flex-direction: row;
 	/*justify-content: space-between;*/
 	padding-right: 100px;
+	font-size: 20px;
+}
+#pri{
+	color: rgb( 215 215 215);
+	text-decoration: none;
 
 }
