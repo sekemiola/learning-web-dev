@@ -1,4 +1,4 @@
-.body{
+.pbody{
 	margin: 0 220px;
 }
 #hp{
@@ -23,8 +23,7 @@
 	text-align: center;
 	margin-right: 0;
 	margin-left: 0;
-
-}
+o}
 #gc{
 	color: black;
 }
@@ -296,4 +295,30 @@ hr{
 #hmm{
 	/*margin-left: -160px;*/
 	/*padding-right: 200px;*/
+}
+#fb{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 19px;
+}
+.nawa{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(0, 0, 0 );
+	/*padding-top: 40px;*/
+	padding: 20px 260px;
+	margin-top: 40px;
+	color: rgb( 215 215 215);
+	padding-right: 150px;
+}
+#ptp{
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-between;*/
+	padding-right: 100px;
+
 }
