@@ -262,7 +262,7 @@ hr{
 	width: 420px;
 	height: 420px;
 }
-.xrr{
+#webexper,#aiexper,#learning,#withone,#experiments,#arts{
 	display: flex;
 	flex-direction: row;
 	/*justify-content: center;*/
@@ -277,8 +277,46 @@ hr{
 	text-shadow: 1px 1px #ffffff;
 	font-family: courier;
 	width: 200px;
-	
 }
+#webexper:hover span {
+	display: none;
+}
+#webexper:hover:before{
+	content: "VR and AR made for the web"
+}
+#aiexper:hover span {
+	display: none;
+}
+#aiexper:hover:before{
+	content: "Celebrating creativity and AI"
+}
+#arts:hover span {
+	display: none;
+}
+#arts:hover:before{
+	content: "See what happens at the crossroads of arts and technology"
+	/*width: 100%;*/
+}
+#learning:hover span {
+	display: none;
+}
+#learning:hover:before{
+	content: "A collection of experiments that teachers,students, and families are using to learn from home."
+}
+#withone:hover span {
+	display: none;
+}
+#withone:hover:before{
+	content: "A collection of experiments that started by working with one person to make something impactful for them and their community"
+}
+#experiments:hover span {
+	display: none;
+}
+#experiments:hover:before{
+	content: "Creative code for the web"
+}
+
+
 #hr2{
 	margin-top: 70px;
 	width: 50%;
