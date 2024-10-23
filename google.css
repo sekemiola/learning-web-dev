@@ -90,17 +90,32 @@
 	height: 700px;
 	/*padding-top: 40px;*/
 }
+#cl{
+	font-size: 20px;
+	/*padding-bottom: -4px;*/
+	margin-bottom: -27px;
+}
 
 .text{
 	display: flex; 
 	flex-direction: column;
 	padding: 20% 0 0 50px;
-	line-height: 0px;
+	/*line-height: 0em;*/
 	color: white;
+	font-family: courier;
+	width: 500px;
+
 }
 .tf{
 	font-size: 40px;
 	font-weight: 100;
+	margin-bottom: -20px;
+	/*padding-top: -15px;*/
+	/*padding-top: -15px;*/
+}
+#acet{
+	font-size: 15px;
+	margin-bottom: 0px;
 }
 #vc{
 	border: 1px solid white;
@@ -142,14 +157,14 @@ hr{
 	/*padding-right: 250px;*/
 	font-size: 20px;
 	font-family: courier;
-	/*justify-content: space-between;*/
+	justify-content: space-between;
 
 	margin-top: -27px;
 	font-size: 25px;
 }
 #vac{
 	color: black;
-	padding-left: 250px;
+	/*padding-left: 920px;*/
 }
 #vac:hover{
 	color: blue;
@@ -250,16 +265,18 @@ hr{
 .xrr{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	/*justify-content: center;*/
 	align-items: center;
-	padding-top: 25%;
+	padding-top: 35%;
+	font-size: 34px;
 	/*padding-left: 50px;*/
 	/*padding-right: 50px;*/
-	text-align: center;
+	/*text-align: center;*/
 	margin-right: auto;
 	margin-left: auto;
 	text-shadow: 1px 1px #ffffff;
-	font-family: papyrus;
+	font-family: courier;
+	width: 200px;
 	
 }
 #hr2{
@@ -269,13 +286,16 @@ hr{
 
 }
 #vi{
-	/*padding-right: 500px;*/
+	padding-right: 660px;
 	color: black;
-	padding-left: 300px;
+	/*padding-left: 300px;*/
 }
 .pow{
 	display: flex;
 	flex-direction: column;
+	font-family: courier;
+
+
 
 
 }
@@ -284,25 +304,31 @@ hr{
 	flex-direction: row;
 	margin-top: 30px;
 	/*padding-left: 200px;*/
-	height: 200px;
+	/*height: 200px;*/
 	justify-content: space-between;
 }
 #water,#play,#icons,#what,#touch,.mtchw{
 	/*padding-left: 20px;*/
-	width: 300px;
+	width: 350px;
 	padding-left: 20px;
 	font-size: 20px;
+	padding-bottom: 20px;
+	/*padding-top: -20px;*/
+	/*height: 200px;*/
 }
 .mtchw{
 	width: 200px;
+
 }
 .pics{
 	border: 1px solid grey;
-	width: 300px;
+	width: 350px;
+	height: 200px;
 }
 .picz{
 	width: 200px;
 	height: 200px;
+	background-size: cover;
 }
 .col2{
 	display: flex;
@@ -314,13 +340,17 @@ hr{
 	/*align-items:  start;*/
 	width: 400px;
 	padding: 30px;
-	margin-top: -100px
+	margin-top: -100px;
+	margin-right: 100px;
+	font-family: courier;
+
 	/*width: 500px;*/
 	/*margin0-right: 250px;*/
 	/*margin-left: 30px;*/
 	/*padding-right: 90px;*/
 	/*padding-left: -300px;*/
 	/*padding-left: -40px;*/
+	/*padding-left: 20px;*/
 }
 #WH{
 	font-size: 15px;
@@ -329,7 +359,7 @@ hr{
 #smtn{
 	display: flex;
 	flex-direction: row;
-	padding: 20px;
+	/*padding: 20px;*/
 	justify-content: space-between;
 }
 #hmm{
