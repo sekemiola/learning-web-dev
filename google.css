@@ -194,6 +194,8 @@ hr{
 	margin-top: 35px;
  }
 #web{
+	display: flex;
+	flex-direction: row;
 
 	background-image:
 					linear-gradient(45deg,
@@ -210,6 +212,8 @@ hr{
 
 }
 #ai{
+	display: flex;
+	flex-direction: row;
 	background-image:
 					linear-gradient(45deg,
                     rgba(-1, -1, -1, 0.75),
@@ -219,10 +223,13 @@ hr{
 	background-size: 100% 100%;
 	width: 420px;
 	height: 420px; 
-	
+	justify-content: center;
+	align-items: center;
 
 }
 #ace{
+	display: flex;
+	flex-direction: row;
 	background-image:
 					linear-gradient(45deg,
                     rgba(-1, -1, -1, 0.75),
@@ -231,8 +238,12 @@ hr{
 	background-size: 100% 100%;				
 	width: 420px;
 	height: 420px;
+	justify-content: center;
+	align-items: center;
 }
 #efl{
+	display: flex;
+	flex-direction: row;
 	background-image:
 					linear-gradient(45deg,
                     rgba(-1, -1, -1, 0.75),
@@ -241,8 +252,12 @@ hr{
 	background-size:100% 100%;
 	width: 420px;
 	height: 420px;
+	justify-content: center;
+	align-items: center;
 }
 #swo{
+	display: flex;
+	flex-direction: row;
 	background-image: 
 					linear-gradient(45deg,
                     rgba(-1, -1, -1, 0.75),
@@ -251,8 +266,12 @@ hr{
 	background-size: 100% 100%;
 	width: 420px;
 	height: 420px;
+	justify-content: center;
+	align-items: center;
 }
 #ce{
+	display: flex;
+	flex-direction: row;
 	background-image:
 					linear-gradient(45deg,
                     rgba(-1, -1, -1, 0.75),
@@ -261,28 +280,34 @@ hr{
 	background-size: 100% 100%;
 	width: 420px;
 	height: 420px;
+	justify-content: center;
+	align-items: center;
 }
 #webexper,#aiexper,#learning,#withone,#experiments,#arts{
 	display: flex;
 	flex-direction: row;
 	/*justify-content: center;*/
+	align-self: center;
 	align-items: center;
-	padding-top: 35%;
+	/*padding-top: 35%;*/
 	font-size: 34px;
-	/*padding-left: 50px;*/
+	/*padding-left: 50px;
 	/*padding-right: 50px;*/
 	/*text-align: center;*/
-	margin-right: auto;
-	margin-left: auto;
+	/*margin-right: auto;
+	margin-left: auto;*/
 	text-shadow: 1px 1px #ffffff;
 	font-family: courier;
-	width: 200px;
+	width: 300px;
 }
+
 #webexper:hover span {
 	display: none;
 }
 #webexper:hover:before{
 	content: "VR and AR made for the web"
+
+
 }
 #aiexper:hover span {
 	display: none;
@@ -327,6 +352,9 @@ hr{
 	padding-right: 660px;
 	color: black;
 	/*padding-left: 300px;*/
+}
+#vi:hover {
+	color: blue
 }
 .pow{
 	display: flex;
