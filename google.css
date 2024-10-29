@@ -334,10 +334,10 @@ hr{
 #withone:hover:before{
 	content: "A collection of experiments that started by working with one person to make something impactful for them and their community"
 }
-#experiments:hover span {
+#ce:hover span {
 	display: none;
 }
-#experiments:hover:before{
+#ce:hover:before{
 	content: "Creative code for the web"
 }
 
@@ -392,9 +392,10 @@ hr{
 	height: 200px;
 }
 .picz{
+	border: 1px solid #ffffff;
 	width: 200px;
 	height: 200px;
-	background-size: cover;
+	background-size: 200px;
 }
 .col2{
 	display: flex;
