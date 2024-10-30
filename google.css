@@ -301,37 +301,37 @@ hr{
 	width: 300px;
 }
 
-#webexper:hover span {
+#web:hover span {
 	display: none;
 }
-#webexper:hover:before{
+#web:hover:before{
 	content: "VR and AR made for the web"
 
 
 }
-#aiexper:hover span {
+#ai:hover span {
 	display: none;
 }
-#aiexper:hover:before{
+#ai:hover:before{
 	content: "Celebrating creativity and AI"
 }
-#arts:hover span {
+#ace:hover span {
 	display: none;
 }
-#arts:hover:before{
+#ace:hover:before{
 	content: "See what happens at the crossroads of arts and technology"
 	/*width: 100%;*/
 }
-#learning:hover span {
+#efl:hover span {
 	display: none;
 }
-#learning:hover:before{
+#efl:hover:before{
 	content: "A collection of experiments that teachers,students, and families are using to learn from home."
 }
-#withone:hover span {
+#swo:hover span {
 	display: none;
 }
-#withone:hover:before{
+#swo:hover:before{
 	content: "A collection of experiments that started by working with one person to make something impactful for them and their community"
 }
 #ce:hover span {

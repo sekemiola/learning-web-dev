@@ -1,0 +1,1 @@
+alert('comot for my page\n jare')
