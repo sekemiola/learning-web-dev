@@ -1,0 +1,100 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	/*margin-left: 100px;*/
+	/*margin-right: 100px;*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	height: 30px;
+	border-bottom: red;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+}
+
+#khrons, #about, #reg, #depo, #log{
+	color: #312440;
+	text-decoration: none;
+}
+#khrons{
+	font-size: 20px;
+	padding-left: 
+}
+#khrons:hover{
+	color: #7befb2;
+}
+#dot{
+	color: #7befb2;
+}
+.nav_bar{
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;
+	margin-top: 5px;
+	/*margin-left: 10px;*/
+	padding-left: 750px;
+}
+#about, #reg, #depo, #log{
+	padding-left: 40px;
+}
+#about:hover{
+	color: #7befb2;
+}
+#reg:hover{
+	color: #7befb2;
+}
+#depo:hover{
+	color: #7befb2;
+}
+#log:hover{
+	color: #7befb2;
+}
+.joint{
+	display: flex;
+	flex-direction: column;
+}
+.build{
+	display: flex;
+	height: 730px;
+	align-items: center;
+	/*justify-content: center;*/
+	background-color: #312440;
+	padding-left: 130px;
+	/*padding-top: 30px;*/
+	/*margin-bottom: 0px;*/
+}
+.let{
+	color: white;
+}
+#tog{
+	font-size: 20px;
+}
+.btn{
+	display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+
+}
+#btn_1{
+	text-decoration: none;
+	color: white;
+	border: 2px solid #7befb2;
+	padding: 15px 20px;
+	/*margin-top: 20px;*/
+}
+#btn_2{
+	text-decoration: none;
+	color:  #312440;
+	border: 2px solid #7befb2;
+	background-color:  #7befb2;
+	margin: 20px;
+	padding: 15px 20px;
+	/*margin-top: 20px;*/
+}
+.min{
+	background-color: #7befb2;
+	/*margin-top: 0;*/
+	/*padding-top: -10px;*/
+}
