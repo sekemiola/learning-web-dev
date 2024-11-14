@@ -21,13 +21,13 @@
 #sb{
 	background-color: #daef68;
 	color: #000;
+	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 5px;
-	text-align: center;
 	margin-right: 0;
 	margin-left: 0;
-	/*font-size: 12px;*/
 	height: 30px;
+	/*font-size: 12px;*/
 }
 #kai{
 	padding-bottom: 40px;
