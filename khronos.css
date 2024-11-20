@@ -97,4 +97,57 @@
 	background-color: #7befb2;
 	/*margin-top: 0;*/
 	/*padding-top: -10px;*/
+	padding: 5vh;
+	height: 50%;
+	margin-bottom: 0;
+}
+.img{
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-around;*/
+}
+.images{
+	display: flex;
+	flex-direction: column;
+	border: 3px solid #312440;
+	
+
+
+}
+#mission{
+	text-align: center;
+	margin: 0 auto;
+}
+#dan{
+	display: flex;
+	flex-direction: column;
+	width: 50px;
+	height: 50px;
+}
+.col{
+	display: flex;
+	flex-direction: row;
+}
+#col-1{
+	background-color: #312440;
+	color: white;
+}
+#trans{
+	color: #7befb2;
+}
+#col-2{
+	background-color: #7befb2;
+}
+#get{
+	text-decoration: none;
+	color: white;
+	background-color: #312440;
+}
+.mile{
+	display: flex;
+	flex-direction: row; 
+}
+.two{
+	display: flex;
+	flex-direction: row;
 }
